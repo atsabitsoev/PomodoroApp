@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="PomodoroApp/ru.lproj/InfoPlist.strings" datatype="plaintext" source-language="ru" target-language="zh-Hans">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="PomodoroApp/ru.lproj/Localizable.strings" source-language="ru" datatype="plaintext" target-language="zh-Hans">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id=" минут">
+        <source> минут</source>
+        <target> 分钟</target>
+        <note>в отдыхе в работе minutes</note>
+      </trans-unit>
+      <trans-unit id=" часов ">
+        <source> часов </source>
+        <target> 小时 </target>
+        <note>hours</note>
+      </trans-unit>
+      <trans-unit id="25 минут позади, теперь можно и передохнуть">
+        <source>25 минут позади, теперь можно и передохнуть</source>
+        <target>落后25分钟，现在你可以休息一下</target>
+        <note>надо отдых</note>
+      </trans-unit>
+      <trans-unit id="Введите имя задачи">
+        <source>Введите имя задачи</source>
+        <target>输入任务名称</target>
+        <note>введите</note>
+      </trans-unit>
+      <trans-unit id="Всего: ">
+        <source>Всего: </source>
+        <target>总计：</target>
+        <note>всего</note>
+      </trans-unit>
+      <trans-unit id="Выбрть">
+        <source>Выбрть</source>
+        <target>选择</target>
+        <note>set</note>
+      </trans-unit>
+      <trans-unit id="Да">
+        <source>Да</source>
+        <target>是的</target>
+        <note>yes</note>
+      </trans-unit>
+      <trans-unit id="Добавить">
+        <source>Добавить</source>
+        <target>添加</target>
+        <note>add</note>
+      </trans-unit>
+      <trans-unit id="Задача с таким именем уже существует">
+        <source>Задача с таким именем уже существует</source>
+        <target>已存在具有相同名称的任务。</target>
+        <note>exist</note>
+      </trans-unit>
+      <trans-unit id="Закрыть задачу?">
+        <source>Закрыть задачу?</source>
+        <target>关闭任务？</target>
+        <note>закрытие задачи</note>
+      </trans-unit>
+      <trans-unit id="Круг завершен">
+        <source>Круг завершен</source>
+        <target>圈完了</target>
+        <note>завершен</note>
+      </trans-unit>
+      <trans-unit id="Начать">
+        <source>Начать</source>
+        <target>开始</target>
+        <note>начать</note>
+      </trans-unit>
+      <trans-unit id="Начните новый круг, если хотите продолжить">
+        <source>Начните новый круг, если хотите продолжить</source>
+        <target>如果要继续，请开始新的圈子</target>
+        <note>новый</note>
+      </trans-unit>
+      <trans-unit id="Новая задача">
+        <source>Новая задача</source>
+        <target>新任务</target>
+        <note>new</note>
+      </trans-unit>
+      <trans-unit id="Отдыхайте">
+        <source>Отдыхайте</source>
+        <target>休息一下</target>
+        <note>отдыхайте</note>
+      </trans-unit>
+      <trans-unit id="Отмена">
+        <source>Отмена</source>
+        <target>消除</target>
+        <note>cancel</note>
+      </trans-unit>
+      <trans-unit id="Пауза">
+        <source>Пауза</source>
+        <target>暂停</target>
+        <note>пауза</note>
+      </trans-unit>
+      <trans-unit id="Попробуйте снова">
+        <source>Попробуйте снова</source>
+        <target>再试一次</target>
+        <note>try</note>
+      </trans-unit>
+      <trans-unit id="Продолжить">
+        <source>Продолжить</source>
+        <target>继续</target>
+        <note>продолжить</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="PomodoroApp/Supporting Files/Base.lproj/Main.storyboard" source-language="ru" datatype="plaintext" target-language="zh-Hans">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.1" build-num="10B61"/>
+    </header>
+    <body>
+      <trans-unit id="0YI-sd-2ET.text">
+        <source>Осталось:</source>
+        <target>左：</target>
+        <note>Class = "UILabel"; text = "Осталось:"; ObjectID = "0YI-sd-2ET";</note>
+      </trans-unit>
+      <trans-unit id="2Hu-E3-MLN.title">
+        <source>Задача</source>
+        <target>任务</target>
+        <note>Class = "UINavigationItem"; title = "Задача"; ObjectID = "2Hu-E3-MLN";</note>
+      </trans-unit>
+      <trans-unit id="4AZ-rl-UbV.title">
+        <source>Настройки</source>
+        <target>设置</target>
+        <note>Class = "UITableViewController"; title = "Настройки"; ObjectID = "4AZ-rl-UbV";</note>
+      </trans-unit>
+      <trans-unit id="19s-ZT-LkE.normalTitle">
+        <source>Начать</source>
+        <target>开始</target>
+        <note>Class = "UIButton"; normalTitle = "Начать"; ObjectID = "19s-ZT-LkE";</note>
+      </trans-unit>
+      <trans-unit id="DFn-Wk-9n8.text">
+        <source>... минут</source>
+        <target>... 分钟</target>
+        <note>Class = "UILabel"; text = "... минут"; ObjectID = "DFn-Wk-9n8";</note>
+      </trans-unit>
+      <trans-unit id="Dbo-Pw-w8l.text">
+        <source>0</source>
+        <target>0</target>
+        <note>Class = "UILabel"; text = "0"; ObjectID = "Dbo-Pw-w8l";</note>
+      </trans-unit>
+      <trans-unit id="G3n-QV-LXp.text">
+        <source>7</source>
+        <target>7</target>
+        <note>Class = "UILabel"; text = "7"; ObjectID = "G3n-QV-LXp";</note>
+      </trans-unit>
+      <trans-unit id="JOI-PI-eDC.normalTitle">
+        <source>Button</source>
+        <target>Button</target>
+        <note>Class = "UIButton"; normalTitle = "Button"; ObjectID = "JOI-PI-eDC";</note>
+      </trans-unit>
+      <trans-unit id="Ndc-9h-icp.text">
+        <source>минут</source>
+        <target>分钟</target>
+        <note>Class = "UILabel"; text = "минут"; ObjectID = "Ndc-9h-icp";</note>
+      </trans-unit>
+      <trans-unit id="Tb0-YM-cja.text">
+        <source>Отдых</source>
+        <target>娱乐</target>
+        <note>Class = "UILabel"; text = "Отдых"; ObjectID = "Tb0-YM-cja";</note>
+      </trans-unit>
+      <trans-unit id="UW2-eD-Xwo.text">
+        <source>45 часов 10 минут</source>
+        <target>45 часов 10 минут</target>
+        <note>Class = "UILabel"; text = "45 часов 10 минут"; ObjectID = "UW2-eD-Xwo";</note>
+      </trans-unit>
+      <trans-unit id="Why-Ca-fLj.text">
+        <source>Делать курсач </source>
+        <target>Делать курсач </target>
+        <note>Class = "UILabel"; text = "Делать курсач "; ObjectID = "Why-Ca-fLj";</note>
+      </trans-unit>
+      <trans-unit id="XEb-u0-JiP.headerTitle">
+        <source>Статистика</source>
+        <target>统计</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Статистика"; ObjectID = "XEb-u0-JiP";</note>
+      </trans-unit>
+      <trans-unit id="XhE-mb-A5a.text">
+        <source>Делать курсач</source>
+        <target>Делать курсач</target>
+        <note>Class = "UILabel"; text = "Делать курсач"; ObjectID = "XhE-mb-A5a";</note>
+      </trans-unit>
+      <trans-unit id="ZWd-8P-Y1Y.headerTitle">
+        <source>Таймер</source>
+        <target>计时器</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Таймер"; ObjectID = "ZWd-8P-Y1Y";</note>
+      </trans-unit>
+      <trans-unit id="aqM-O3-Hz2.text">
+        <source>секунд</source>
+        <target>秒</target>
+        <note>Class = "UILabel"; text = "секунд"; ObjectID = "aqM-O3-Hz2";</note>
+      </trans-unit>
+      <trans-unit id="d8V-2J-lB7.headerTitle">
+        <source>Оформление</source>
+        <target>注册</target>
+        <note>Class = "UITableViewSection"; headerTitle = "Оформление"; ObjectID = "d8V-2J-lB7";</note>
+      </trans-unit>
+      <trans-unit id="eJ2-NE-db1.text">
+        <source>Работа</source>
+        <target>工作</target>
+        <note>Class = "UILabel"; text = "Работа"; ObjectID = "eJ2-NE-db1";</note>
+      </trans-unit>
+      <trans-unit id="jvw-C5-mV3.text">
+        <source>Главная задача</source>
+        <target>Главная задача</target>
+        <note>Class = "UILabel"; text = "Главная задача"; ObjectID = "jvw-C5-mV3";</note>
+      </trans-unit>
+      <trans-unit id="kfb-sE-Df6.text">
+        <source>Тема</source>
+        <target>主题</target>
+        <note>Class = "UILabel"; text = "Тема"; ObjectID = "kfb-sE-Df6";</note>
+      </trans-unit>
+      <trans-unit id="l7d-rr-zcU.text">
+        <source>Всего в работе</source>
+        <target>总</target>
+        <note>Class = "UILabel"; text = "Всего в работе"; ObjectID = "l7d-rr-zcU";</note>
+      </trans-unit>
+      <trans-unit id="nIq-bu-fOj.normalTitle">
+        <source>Стоп</source>
+        <target>停止</target>
+        <note>Class = "UIButton"; normalTitle = "Стоп"; ObjectID = "nIq-bu-fOj";</note>
+      </trans-unit>
+      <trans-unit id="oAV-Vo-CpO.title">
+        <source>Задачи</source>
+        <target>任务</target>
+        <note>Class = "UINavigationItem"; title = "Задачи"; ObjectID = "oAV-Vo-CpO";</note>
+      </trans-unit>
+      <trans-unit id="qbe-X0-lWW.text">
+        <source>... минут</source>
+        <target>... 分钟</target>
+        <note>Class = "UILabel"; text = "... минут"; ObjectID = "qbe-X0-lWW";</note>
+      </trans-unit>
+      <trans-unit id="sbG-dZ-MnZ.text">
+        <source>...</source>
+        <target>...</target>
+        <note>Class = "UILabel"; text = "..."; ObjectID = "sbG-dZ-MnZ";</note>
+      </trans-unit>
+      <trans-unit id="v2I-LP-8yj.text">
+        <source>Писать работу</source>
+        <target>Писать работу</target>
+        <note>Class = "UILabel"; text = "Писать работу"; ObjectID = "v2I-LP-8yj";</note>
+      </trans-unit>
+      <trans-unit id="vHQ-0i-BYC.text">
+        <source>Всего: 0 часов 0 минут</source>
+        <target>Всего: 0 часов 0 минут</target>
+        <note>Class = "UILabel"; text = "Всего: 0 часов 0 минут"; ObjectID = "vHQ-0i-BYC";</note>
+      </trans-unit>
+      <trans-unit id="vuI-gG-0pv.title">
+        <source>Item</source>
+        <target>Item</target>
+        <note>Class = "UIBarButtonItem"; title = "Item"; ObjectID = "vuI-gG-0pv";</note>
+      </trans-unit>
+      <trans-unit id="x1x-ZT-aFT.text">
+        <source>...</source>
+        <target>...</target>
+        <note>Class = "UILabel"; text = "..."; ObjectID = "x1x-ZT-aFT";</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

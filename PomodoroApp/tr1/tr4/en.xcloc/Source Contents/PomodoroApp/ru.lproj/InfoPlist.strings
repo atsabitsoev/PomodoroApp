@@ -1,0 +1,4 @@
+/* Bundle display name */
+"CFBundleDisplayName" = "Pomodoro";
+/* Bundle name */
+"CFBundleName" = "$(PRODUCT_NAME)";

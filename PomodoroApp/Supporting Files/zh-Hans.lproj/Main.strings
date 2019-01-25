@@ -1,0 +1,54 @@
+/* Class = "UILabel"; text = "Осталось:"; ObjectID = "0YI-sd-2ET"; */
+"0YI-sd-2ET.text" = "左：";
+
+/* Class = "UINavigationItem"; title = "Задача"; ObjectID = "2Hu-E3-MLN"; */
+"2Hu-E3-MLN.title" = "任务";
+
+/* Class = "UITableViewController"; title = "Настройки"; ObjectID = "4AZ-rl-UbV"; */
+"4AZ-rl-UbV.title" = "设置";
+
+/* Class = "UIButton"; normalTitle = "Начать"; ObjectID = "19s-ZT-LkE"; */
+"19s-ZT-LkE.normalTitle" = "开始";
+
+/* Class = "UILabel"; text = "секунд"; ObjectID = "aqM-O3-Hz2"; */
+"aqM-O3-Hz2.text" = "秒";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Dbo-Pw-w8l"; */
+"Dbo-Pw-w8l.text" = "0";
+
+/* Class = "UILabel"; text = "7"; ObjectID = "G3n-QV-LXp"; */
+"G3n-QV-LXp.text" = "7";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "JOI-PI-eDC"; */
+"JOI-PI-eDC.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Тема"; ObjectID = "kfb-sE-Df6"; */
+"kfb-sE-Df6.text" = "主题";
+
+/* Class = "UILabel"; text = "минут"; ObjectID = "Ndc-9h-icp"; */
+"Ndc-9h-icp.text" = "分钟";
+
+/* Class = "UIButton"; normalTitle = "Стоп"; ObjectID = "nIq-bu-fOj"; */
+"nIq-bu-fOj.normalTitle" = "停止";
+
+/* Class = "UINavigationItem"; title = "Задачи"; ObjectID = "oAV-Vo-CpO"; */
+"oAV-Vo-CpO.title" = "任务";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "sbG-dZ-MnZ"; */
+"sbG-dZ-MnZ.text" = "...";
+
+/* Class = "UILabel"; text = "Писать работу"; ObjectID = "v2I-LP-8yj"; */
+"v2I-LP-8yj.text" = "Писать работу";
+
+/* Class = "UILabel"; text = "Всего: 0 часов 0 минут"; ObjectID = "vHQ-0i-BYC"; */
+"vHQ-0i-BYC.text" = "Всего: 0 часов 0 минут";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "vuI-gG-0pv"; */
+"vuI-gG-0pv.title" = "Item";
+
+/* Class = "UILabel"; text = "Делать курсач "; ObjectID = "Why-Ca-fLj"; */
+"Why-Ca-fLj.text" = "Делать курсач ";
+
+/* Class = "UILabel"; text = "..."; ObjectID = "x1x-ZT-aFT"; */
+"x1x-ZT-aFT.text" = "...";
+
