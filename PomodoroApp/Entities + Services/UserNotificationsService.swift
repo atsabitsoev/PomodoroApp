@@ -16,7 +16,7 @@ class UNService {
     
     func createNotifications(triggerDate: Date) {
         
-        let workMinutesString = String(UserDefaults.standard.integer(forKey: "workMinutes"))
+        let workMinutesString = String(Settings.standard.workMinutes)
         
         let content2 = UNMutableNotificationContent()
         content2.title = NSLocalizedString("Отдыхайте", comment: "отдыхайте")

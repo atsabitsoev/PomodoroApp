@@ -18,7 +18,20 @@ enum Themes: String {
 }
 
 
-class MyTheme {
+protocol Theme {
+    
+    var mainColor: UIColor { get }
+    var darkenColor: UIColor { get }
+    
+    var plusImage: UIImage { get }
+    var miniCircleImage: UIImage { get }
+    
+    var iconName: String { get }
+    
+}
+
+
+class MyTheme: Theme {
     
     private var currentTheme: Theme
     
@@ -50,20 +63,6 @@ class MyTheme {
         self.iconName = currentTheme.iconName
         
     }
-    
-}
-
-
-
-protocol Theme {
-    
-    var mainColor: UIColor { get }
-    var darkenColor: UIColor { get }
-    
-    var plusImage: UIImage { get }
-    var miniCircleImage: UIImage { get }
-    
-    var iconName: String { get }
     
 }
 

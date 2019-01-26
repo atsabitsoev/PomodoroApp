@@ -115,4 +115,75 @@ extension SettingsViewController {
         
     }
     
+    
+    // BIG BREAK ALERT
+    func bigBreakAlert() {
+        
+        let alert = UIAlertController(title: "\n\n\n\n\n\n\n\n\n\n", message: nil, preferredStyle: .actionSheet)
+        
+        let picker = UIPickerView(frame: CGRect(x: 0,
+                                                y: 0,
+                                                width: alert.view.bounds.width - 20,
+                                                height: 200))
+        picker.delegate = self
+        picker.dataSource = self
+        picker.tag = 3
+        picker.center.x = alert.view.center.x - 7.5
+        let currentBigBreak = tableView.cellForRow(at: [1,2])?.detailTextLabel!.text!.onlyNumbers()
+        picker.selectRow(bigBreakArray.firstIndex(of: currentBigBreak!)!, inComponent: 0, animated: false)
+        alert.view.addSubview(picker)
+        
+        let ok = UIAlertAction(title: NSLocalizedString("Выбрать", comment: "set"), style: .default) { (action) in
+            
+            let selectedBigBreak = self.bigBreakArray[picker.selectedRow(inComponent: 0)]
+            self.tableView.cellForRow(at: [1,2])?.detailTextLabel!.text = selectedBigBreak + NSLocalizedString(" минут", comment: "минут")
+            
+            Settings.standard.bigBreak = Int(selectedBigBreak)!
+            UserDefaults.standard.set(Settings.standard.bigBreak, forKey: "bigBreak")
+            
+            self.tableView.deselectRow(at: [1,2], animated: true)
+            
+        }
+        
+        alert.addAction(ok)
+        
+        self.present(alert, animated: true)
+        
+    }
+    
+    
+    func bigBreakEveryAlert() {
+        
+        let alert = UIAlertController(title: "\n\n\n\n\n\n\n\n\n\n", message: nil, preferredStyle: .actionSheet)
+        
+        let picker = UIPickerView(frame: CGRect(x: 0,
+                                                y: 0,
+                                                width: alert.view.bounds.width - 20,
+                                                height: 200))
+        picker.delegate = self
+        picker.dataSource = self
+        picker.tag = 4
+        picker.center.x = alert.view.center.x - 7.5
+        let currentBigBreakEvery = tableView.cellForRow(at: [1,3])?.detailTextLabel!.text!.onlyNumbers()
+        picker.selectRow(bigBreakEveryArray.firstIndex(of: currentBigBreakEvery!)!, inComponent: 0, animated: false)
+        alert.view.addSubview(picker)
+        
+        let ok = UIAlertAction(title: NSLocalizedString("Выбрать", comment: "set"), style: .default) { (action) in
+            
+            let selectedBigBreakEvery = self.bigBreakEveryArray[picker.selectedRow(inComponent: 0)]
+            self.tableView.cellForRow(at: [1,3])?.detailTextLabel!.text = selectedBigBreakEvery + NSLocalizedString(" круга(ов)", comment: "кругов")
+            
+            Settings.standard.bigBreakEvery = Int(selectedBigBreakEvery)!
+            UserDefaults.standard.set(Settings.standard.bigBreakEvery, forKey: "bigBreakEvery")
+            
+            self.tableView.deselectRow(at: [1,3], animated: true)
+            
+        }
+        
+        alert.addAction(ok)
+        
+        self.present(alert, animated: true)
+        
+    }
+    
 }

@@ -31,7 +31,26 @@ class TaskInteractor: TaskInteractorProtocol {
     }
     
     
+    // NEW CIRCLE START
+    func startingNewCircle() {
+        
+        var circleNumber = UserDefaults.standard.integer(forKey: "circleNum")
+        
+        if circleNumber >= Settings.standard.bigBreakEvery {
+            circleNumber = 1
+        } else {
+            circleNumber += 1
+        }
+        
+        print(circleNumber)
+        
+        UserDefaults.standard.set(circleNumber, forKey: "circleNum")
+        
+    }
+    
+    
     // TIMER
+    // Start timer
     func startTimer() {
         
         print("start timer")
@@ -85,6 +104,7 @@ class TaskInteractor: TaskInteractorProtocol {
     }
     
     
+    // Stop timer
     func stopTimer() {
         
         print("stop timer")
@@ -120,6 +140,7 @@ class TaskInteractor: TaskInteractorProtocol {
     }
     
     
+    // Pause timer
     func pauseTimer() {
         
         UserDefaults.standard.set(true, forKey: "timerPaused")
@@ -134,6 +155,7 @@ class TaskInteractor: TaskInteractorProtocol {
     }
     
     
+    // Resume timer
     func resumeTimer() {
         
         UserDefaults.standard.set(false, forKey: "timerPaused")
@@ -147,6 +169,7 @@ class TaskInteractor: TaskInteractorProtocol {
     }
     
     
+    // Get timeRest
     func getTimeRest() {
         
         timeRest = UserDefaults.standard.integer(forKey: "timeRest")

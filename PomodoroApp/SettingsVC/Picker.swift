@@ -24,6 +24,10 @@ extension SettingsViewController: UIPickerViewDelegate, UIPickerViewDataSource {
             return workMinutesArray.count
         case 2:
             return relaxMinutesArray.count
+        case 3:
+            return bigBreakArray.count
+        case 4:
+            return bigBreakEveryArray.count
         default:
             return 0
         }
@@ -38,6 +42,10 @@ extension SettingsViewController: UIPickerViewDelegate, UIPickerViewDataSource {
             return workMinutesArray[row]
         case 2:
             return relaxMinutesArray[row]
+        case 3:
+            return bigBreakArray[row]
+        case 4:
+            return bigBreakEveryArray[row]
         default:
             return nil
         }

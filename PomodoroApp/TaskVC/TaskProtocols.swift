@@ -37,6 +37,8 @@ protocol TaskInteractorProtocol: class {
     func pauseTimer()
     func resumeTimer()
     func getTimeRest()
+    func startingNewCircle()
+    
 }
 
 //MARK: View -

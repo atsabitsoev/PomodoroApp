@@ -16,16 +16,34 @@ class Settings {
     
     var workMinutes: Int = 25
     
-    var relaxMinutes: Int = 5
+    var myRelaxMinutes: Int = 5
     
-    var sumMinutes: Int {
-        
+    var relaxMinutes: Int {
         get {
             
-            return workMinutes + relaxMinutes
+            if UserDefaults.standard.integer(forKey: "circleNum") != bigBreakEvery {
+                return myRelaxMinutes
+            } else {
+                return bigBreak
+            }
             
         }
-    
-    
+        
+        set {
+            
+            myRelaxMinutes = newValue
+            
+        }
     }
+    
+    var sumMinutes: Int {
+        get {
+            return workMinutes + relaxMinutes
+        }
+    }
+    
+    var bigBreak: Int = 20
+    
+    var bigBreakEvery: Int = 4 // Circles
+    
 }

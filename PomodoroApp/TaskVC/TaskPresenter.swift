@@ -76,11 +76,18 @@ class TaskPresenter: TaskPresenterProtocol {
         let enabled = UserDefaults.standard.bool(forKey: "timerEnabled")
                 
         if paused {
+            
             interactor?.resumeTimer()
+            
         } else if !enabled {
+            
+            interactor?.startingNewCircle()
             interactor?.startTimer()
+            
         } else {
+            
             interactor?.pauseTimer()
+            
         }
         
     }

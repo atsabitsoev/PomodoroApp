@@ -11,6 +11,36 @@ import UIKit
 // TABLE VIEW
 extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
+    // SECTIONS
+    func numberOfSections(in tableView: UITableView) -> Int {
+        
+        if arrayOfTaskNames.count == 0 {
+            
+            let lab = UILabel(frame: CGRect(x: 16,
+                                            y: 0,
+                                            width: self.tableView.frame.width - 32,
+                                            height: self.tableView.frame.height))
+            lab.text = "Нажмите \"+\", чтобы добавить новую задачу!"
+            lab.font = UIFont.systemFont(ofSize: 25)
+            lab.textAlignment = .center
+            lab.textColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)
+            lab.numberOfLines = 0
+            let view = UIView(frame: lab.frame)
+            view.addSubview(lab)
+            self.tableView.backgroundView = view
+            
+        } else {
+            
+            self.tableView.backgroundView = nil
+            
+        }
+        
+        
+        return 1
+        
+    }
+    
+    
     // NUMBER OF ROWS
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         

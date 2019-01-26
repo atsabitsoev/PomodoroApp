@@ -27,8 +27,12 @@ class SettingsViewController: UITableViewController, SettingsViewProtocol {
     
     // CELL
     let themeText: String = NSLocalizedString("Тема", comment: "Тема")
+    
     let workText = NSLocalizedString("Работа", comment: "Работа")
     let relaxText = NSLocalizedString("Отдых", comment: "Отдых")
+    let bigRelaxText = NSLocalizedString("Большой перерыв", comment: "большой перерыв")
+    let relaxEveryText = NSLocalizedString("Большой перерыв через", comment: "большой перерыв через")
+    
     let totalText = NSLocalizedString("Всего в работе", comment: "Всего в работе")
     let mainTaskText = NSLocalizedString("Главная задача", comment: "Главная задача")
     
@@ -57,16 +61,28 @@ class SettingsViewController: UITableViewController, SettingsViewProtocol {
             
         case [1,1]:
             
-            let relaxMinutes = Settings.standard.relaxMinutes
-            cell?.detailTextLabel!.text = String(relaxMinutes) +  NSLocalizedString(" минут", comment: "в работе")
+            let relaxMinutes = Settings.standard.myRelaxMinutes
+            cell?.detailTextLabel!.text = String(relaxMinutes) + NSLocalizedString(" минут", comment: "в работе")
+            
+        case [1,2]:
+            
+            let bigBreak = Settings.standard.bigBreak
+            cell?.detailTextLabel!.text = String(bigBreak) + NSLocalizedString(" минут", comment: "в работе")
+            
+        case [1,3]:
+            
+            let bigBreakEvery = Settings.standard.bigBreakEvery
+            cell?.detailTextLabel!.text = String(bigBreakEvery) + NSLocalizedString(" круга(ов)", comment: "Кругов")
             
         case [2,0]:
             
             cell?.detailTextLabel?.text = presenter?.preparedTotalTimeSpent()
+            cell?.isUserInteractionEnabled = false
             
         case [2,1]:
             
             cell?.detailTextLabel?.text = presenter?.mainTaskName()
+            cell?.isUserInteractionEnabled = false
             
         default:
             
@@ -83,7 +99,7 @@ class SettingsViewController: UITableViewController, SettingsViewProtocol {
     func prepareTableView() {
 
         section0Texts = [themeText]
-        section1Texts = [workText, relaxText]
+        section1Texts = [workText, relaxText, bigRelaxText, relaxEveryText]
         section2Texts = [totalText, mainTaskText]
         
         tableViewTexts = [section0Texts, section1Texts, section2Texts]
@@ -130,7 +146,7 @@ class SettingsViewController: UITableViewController, SettingsViewProtocol {
         case 0:
             return 1
         case 1:
-            return 2
+            return 4
         case 2:
             return 2
         default:
@@ -157,6 +173,14 @@ class SettingsViewController: UITableViewController, SettingsViewProtocol {
             
             minutesAlert(type: .relax)
             
+        case [1,2]:
+            
+            bigBreakAlert()
+            
+        case [1,3]:
+            
+            bigBreakEveryAlert()
+            
         default:
             print("error")
             
@@ -177,6 +201,8 @@ class SettingsViewController: UITableViewController, SettingsViewProtocol {
     let themes: [Themes] = [.black, .blue, .violet, .red]
     let workMinutesArray = ["25","30","35","40","45","50"]
     let relaxMinutesArray = ["5","6","7","8","9","10"]
+    let bigBreakArray = ["10","15","20","25","30","35","40"]
+    let bigBreakEveryArray = ["2","3","4","5","6","7","8"]
     
     
 }

@@ -29,10 +29,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         
         // SET SETTINGS
-        
         Settings.standard.workMinutes = UserDefaults.standard.integer(forKey: "workMinutes") != 0 ? UserDefaults.standard.integer(forKey: "workMinutes") : 25
+        
         Settings.standard.relaxMinutes = UserDefaults.standard.integer(forKey: "relaxMinutes") != 0 ? UserDefaults.standard.integer(forKey: "relaxMinutes") : 5
         
+        Settings.standard.bigBreak = UserDefaults.standard.integer(forKey: "bigBreak") != 0 ? UserDefaults.standard.integer(forKey: "bigBreak") : 20
+        
+        Settings.standard.bigBreakEvery = UserDefaults.standard.integer(forKey: "bigBreakEvery") != 0 ? UserDefaults.standard.integer(forKey: "bigBreakEvery") : 4
         
         return true
     }
