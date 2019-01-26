@@ -80,25 +80,25 @@
                                         <rect key="frame" x="71.5" y="39" width="203" height="27.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="sbG-dZ-MnZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="20.5" height="27.5"/>
+                                                <rect key="frame" x="0.0" y="0.5" width="21.5" height="27"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="23"/>
                                                 <color key="textColor" red="0.2774966955" green="0.89383983609999995" blue="0.75986737010000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="минут" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Ndc-9h-icp">
-                                                <rect key="frame" x="30.5" y="2" width="62" height="24"/>
+                                                <rect key="frame" x="31.5" y="2" width="62" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="0.80204264322916663" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Dbo-Pw-w8l">
-                                                <rect key="frame" x="102.5" y="0.0" width="16" height="27.5"/>
+                                                <rect key="frame" x="103.5" y="0.5" width="14.5" height="27"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="23"/>
                                                 <color key="textColor" red="0.2774966955" green="0.89383983609999995" blue="0.75986737010000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="секунд" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="aqM-O3-Hz2">
-                                                <rect key="frame" x="128.5" y="2" width="74.5" height="24"/>
+                                                <rect key="frame" x="128" y="2" width="75" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="SFProDisplay-Medium" family="SF Pro Display" pointSize="20"/>
                                                 <color key="textColor" white="1" alpha="0.80170355902777779" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -216,6 +216,7 @@
                         <outlet property="butPause" destination="19s-ZT-LkE" id="lpW-EK-nwl"/>
                         <outlet property="butStop" destination="nIq-bu-fOj" id="ynY-0j-lvT"/>
                         <outlet property="greenView" destination="7fO-C3-jMu" id="PHB-qi-Z1E"/>
+                        <outlet property="labLeftTime" destination="0YI-sd-2ET" id="U05-5C-awh"/>
                         <outlet property="labMinutes" destination="sbG-dZ-MnZ" id="T1Z-OI-nNo"/>
                         <outlet property="labName" destination="Why-Ca-fLj" id="f8F-6n-oWH"/>
                         <outlet property="labSeconds" destination="Dbo-Pw-w8l" id="mQf-P5-njR"/>

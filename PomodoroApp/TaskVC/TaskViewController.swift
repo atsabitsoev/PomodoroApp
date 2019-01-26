@@ -18,6 +18,7 @@ class TaskViewController: UIViewController, TaskViewProtocol, AVAudioPlayerDeleg
     @IBOutlet weak var labMinutes: UILabel!
     @IBOutlet weak var labSeconds: UILabel!
     @IBOutlet weak var viewUnderBubbles: UIView!
+    @IBOutlet weak var labLeftTime: UILabel!
     
     
     var indexOfCurrentTask = 0
@@ -188,9 +189,13 @@ class TaskViewController: UIViewController, TaskViewProtocol, AVAudioPlayerDeleg
         
         
         var color: UIColor = #colorLiteral(red: 0.2784313725, green: 0.8941176471, blue: 0.7607843137, alpha: 1)
+        var text = NSLocalizedString("Осталось:", comment: "Осталось")
         if type == .relax {
             color = #colorLiteral(red: 0.9450980392, green: 0.768627451, blue: 0.05882352941, alpha: 1)
+            text = NSLocalizedString("Перерыв", comment: "отдых")
         }
+        
+        labLeftTime.text = text
         
         UIView.animate(withDuration: 0.7) {
             self.greenView.backgroundColor = color
