@@ -16,17 +16,20 @@ class UNService {
     
     func createNotifications(triggerDate: Date) {
         
-        let workMinutesString = String(Settings.standard.workMinutes)
+        let workMinutesString = Settings.standard.workMinutes
         
         let content2 = UNMutableNotificationContent()
         content2.title = NSLocalizedString("Отдыхайте", comment: "отдыхайте")
-        content2.body = NSLocalizedString("\(workMinutesString) минут позади, теперь можно и передохнуть", comment: "надо отдых")
+        content2.body = "\(workMinutesString)" + NSLocalizedString(" минут позади, теперь можно и передохнуть", comment: "надо отдых")
         content2.sound = UNNotificationSound(named: UNNotificationSoundName("startRelax.caf"))
         
         let content1 = UNMutableNotificationContent()
         content1.title = NSLocalizedString("Круг завершен", comment: "завершен")
         content1.body = NSLocalizedString("Начните новый круг, если хотите продолжить", comment: "новый")
         content1.sound = UNNotificationSound(named: UNNotificationSoundName("endRelax.caf"))
+        
+        print(content1.body)
+        print(content2.body)
         
         let components1 = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute,.second], from: triggerDate)
         let components2 = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute,.second], from: Date(timeInterval: TimeInterval(-Settings.standard.relaxMinutes * 60), since: triggerDate))

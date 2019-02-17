@@ -2,27 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>UIAppFonts</key>
-	<array>
-		<string>SF-Pro-Display-Black</string>
-		<string>SF-Pro-Display-BlackItalic</string>
-		<string>SF-Pro-Display-Bold</string>
-		<string>SF-Pro-Display-Heavy</string>
-		<string>SF-Pro-Display-BoldItalic</string>
-		<string>SF-Pro-Display-HeavyItalic</string>
-		<string>SF-Pro-Display-Light</string>
-		<string>SF-Pro-Display-LightItalic</string>
-		<string>SF-Pro-Display-Medium</string>
-		<string>SF-Pro-Display-MediumItalic</string>
-		<string>SF-Pro-Display-Regular</string>
-		<string>SF-Pro-Display-RegularItalic</string>
-		<string>SF-Pro-Display-Semibold</string>
-		<string>SF-Pro-Display-SemiboldItalic</string>
-		<string>SF-Pro-Display-Thin</string>
-		<string>SF-Pro-Display-ThinItalic</string>
-		<string>SF-Pro-Display-Ultralight</string>
-		<string>SF-Pro-Display-UltralightItalic</string>
-	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>ru</string>
 	<key>CFBundleDisplayName</key>
@@ -47,6 +26,15 @@
 				<key>CFBundleIconFiles</key>
 				<array>
 					<string>iconBlue_60pt</string>
+				</array>
+				<key>UIPrerenderedIcon</key>
+				<false/>
+			</dict>
+			<key>PinkIcon</key>
+			<dict>
+				<key>CFBundleIconFiles</key>
+				<array>
+					<string>iconPink_60pt</string>
 				</array>
 				<key>UIPrerenderedIcon</key>
 				<false/>
@@ -89,13 +77,34 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>1.3</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSApplicationCategoryType</key>
 	<string></string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>SF-Pro-Display-Black</string>
+		<string>SF-Pro-Display-BlackItalic</string>
+		<string>SF-Pro-Display-Bold</string>
+		<string>SF-Pro-Display-Heavy</string>
+		<string>SF-Pro-Display-BoldItalic</string>
+		<string>SF-Pro-Display-HeavyItalic</string>
+		<string>SF-Pro-Display-Light</string>
+		<string>SF-Pro-Display-LightItalic</string>
+		<string>SF-Pro-Display-Medium</string>
+		<string>SF-Pro-Display-MediumItalic</string>
+		<string>SF-Pro-Display-Regular</string>
+		<string>SF-Pro-Display-RegularItalic</string>
+		<string>SF-Pro-Display-Semibold</string>
+		<string>SF-Pro-Display-SemiboldItalic</string>
+		<string>SF-Pro-Display-Thin</string>
+		<string>SF-Pro-Display-ThinItalic</string>
+		<string>SF-Pro-Display-Ultralight</string>
+		<string>SF-Pro-Display-UltralightItalic</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

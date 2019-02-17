@@ -14,6 +14,7 @@ enum Themes: String {
     case black = "Black Space"
     case red = "Red Rose"
     case blue = "Sky Blue"
+    case pink = "Rose vine"
     
 }
 
@@ -46,6 +47,7 @@ class MyTheme: Theme {
     init(theme: Themes){
         
         switch theme {
+            
         case .violet:
             currentTheme = VioletTheme()
         case .blue:
@@ -54,6 +56,9 @@ class MyTheme: Theme {
             currentTheme = RedTheme()
         case .black:
             currentTheme = BlackTheme()
+        case .pink:
+            currentTheme = PinkTheme()
+            
         }
         
         self.mainColor = currentTheme.mainColor
@@ -115,5 +120,19 @@ class BlackTheme: Theme {
     let miniCircleImage: UIImage = UIImage(named: "miniCircleBlack")!
     
     let iconName: String = "BlackIcon"
+    
+}
+
+class PinkTheme: Theme {
+    
+    var mainColor: UIColor = #colorLiteral(red: 0.9098039216, green: 0.262745098, blue: 0.5764705882, alpha: 1)
+    
+    var darkenColor: UIColor = #colorLiteral(red: 0.678777194, green: 0.1974560279, blue: 0.4323522049, alpha: 1)
+    
+    var plusImage: UIImage = UIImage(named: "plusPink")!
+    
+    var miniCircleImage: UIImage = UIImage(named: "miniCirclePink")!
+    
+    var iconName: String = "PinkIcon"
     
 }

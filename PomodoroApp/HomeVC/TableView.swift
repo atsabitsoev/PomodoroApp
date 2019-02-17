@@ -20,7 +20,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
                                             y: 0,
                                             width: self.tableView.frame.width - 32,
                                             height: self.tableView.frame.height))
-            lab.text = "Нажмите \"+\", чтобы добавить новую задачу!"
+            lab.text = NSLocalizedString("Нажмите \"+\", чтобы добавить новую задачу!", comment: "")
             lab.font = UIFont.systemFont(ofSize: 25)
             lab.textAlignment = .center
             lab.textColor = #colorLiteral(red: 0.2549019754, green: 0.2745098174, blue: 0.3019607961, alpha: 1)

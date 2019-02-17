@@ -31,6 +31,8 @@
 		5B58A33221E3AE3300D4A702 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58A32C21E3AE3300D4A702 /* HomeViewController.swift */; };
 		5B58A33321E3AE3300D4A702 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58A32D21E3AE3300D4A702 /* HomeProtocols.swift */; };
 		5B58A33421E3AE3300D4A702 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B58A32E21E3AE3300D4A702 /* HomeInteractor.swift */; };
+		5B81891522005AD900FF6575 /* iconPink_60pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B81891422005AD900FF6575 /* iconPink_60pt@2x.png */; };
+		5B81891722005AE100FF6575 /* iconPink_60pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B81891622005AE100FF6575 /* iconPink_60pt@3x.png */; };
 		5B8EBDE321EA3A2F00CD3CDD /* TimerTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8EBDE221EA3A2F00CD3CDD /* TimerTypes.swift */; };
 		5B9D406021EB3BC6008CE075 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D405F21EB3BC6008CE075 /* Gradient.swift */; };
 		5BABE46921FB095B004CE632 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BABE46821FB095B004CE632 /* Picker.swift */; };
@@ -84,6 +86,9 @@
 		5B172B6D21F7B1DE0042C8E6 /* iconBlack_60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconBlack_60pt@3x.png"; path = "PomodoroApp/Supporting Files/Assets.xcassets/AppIconBlack.appiconset/iconBlack_60pt@3x.png"; sourceTree = SOURCE_ROOT; };
 		5B172B6F21F7B1FB0042C8E6 /* iconViolet_60pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconViolet_60pt@2x.png"; path = "PomodoroApp/Supporting Files/Assets.xcassets/AppIconViolet.appiconset/iconViolet_60pt@2x.png"; sourceTree = SOURCE_ROOT; };
 		5B172B7121F7B20C0042C8E6 /* iconViolet_60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconViolet_60pt@3x.png"; path = "PomodoroApp/Supporting Files/Assets.xcassets/AppIconViolet.appiconset/iconViolet_60pt@3x.png"; sourceTree = SOURCE_ROOT; };
+		5B25D21C21FCD0AC0055C696 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		5B25D21D21FCD0AC0055C696 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		5B25D21E21FCD0AC0055C696 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		5B58A31D21E3ACC500D4A702 /* TaskPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskPresenter.swift; sourceTree = "<group>"; };
 		5B58A31E21E3ACC500D4A702 /* TaskRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRouter.swift; sourceTree = "<group>"; };
 		5B58A31F21E3ACC500D4A702 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +99,8 @@
 		5B58A32C21E3AE3300D4A702 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5B58A32D21E3AE3300D4A702 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
 		5B58A32E21E3AE3300D4A702 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		5B81891422005AD900FF6575 /* iconPink_60pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconPink_60pt@2x.png"; path = "Icons/IconPink/iconPink_60pt@2x.png"; sourceTree = SOURCE_ROOT; };
+		5B81891622005AE100FF6575 /* iconPink_60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconPink_60pt@3x.png"; path = "Icons/IconPink/iconPink_60pt@3x.png"; sourceTree = SOURCE_ROOT; };
 		5B8EBDE221EA3A2F00CD3CDD /* TimerTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTypes.swift; sourceTree = "<group>"; };
 		5B9D405F21EB3BC6008CE075 /* Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gradient.swift; sourceTree = "<group>"; };
 		5BABE46821FB095B004CE632 /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
@@ -164,6 +171,8 @@
 				5B172B6D21F7B1DE0042C8E6 /* iconBlack_60pt@3x.png */,
 				5B172B6F21F7B1FB0042C8E6 /* iconViolet_60pt@2x.png */,
 				5B172B7121F7B20C0042C8E6 /* iconViolet_60pt@3x.png */,
+				5B81891422005AD900FF6575 /* iconPink_60pt@2x.png */,
+				5B81891622005AE100FF6575 /* iconPink_60pt@3x.png */,
 			);
 			path = Icons;
 			sourceTree = "<group>";
@@ -337,6 +346,7 @@
 				ru,
 				en,
 				"zh-Hans",
+				"en-GB",
 			);
 			mainGroup = 5BBB39FE21E25B7A001FFFFA;
 			productRefGroup = 5BBB3A0821E25B7A001FFFFA /* Products */;
@@ -356,6 +366,7 @@
 				5BABE48921FB289D004CE632 /* SF-Pro-Display-Medium.otf in Resources */,
 				5BBB3A1521E25B7B001FFFFA /* LaunchScreen.storyboard in Resources */,
 				5B172B6C21F7B1CD0042C8E6 /* iconBlack_60pt@2x.png in Resources */,
+				5B81891522005AD900FF6575 /* iconPink_60pt@2x.png in Resources */,
 				5BABE48321FB289D004CE632 /* SF-Pro-Display-Thin.otf in Resources */,
 				5BABE49321FB2F7C004CE632 /* .gitignore in Resources */,
 				5BBB3A1221E25B7B001FFFFA /* Assets.xcassets in Resources */,
@@ -378,6 +389,7 @@
 				5B172B6621F7B12B0042C8E6 /* iconBlue_60pt@3x.png in Resources */,
 				5BABE48A21FB289D004CE632 /* SF-Pro-Display-RegularItalic.otf in Resources */,
 				5B172B6421F7B1180042C8E6 /* iconBlue_60pt@2x.png in Resources */,
+				5B81891722005AE100FF6575 /* iconPink_60pt@3x.png in Resources */,
 				5B172B6821F7B1A00042C8E6 /* iconRed_60pt@2x.png in Resources */,
 				5BABE48721FB289D004CE632 /* SF-Pro-Display-SemiboldItalic.otf in Resources */,
 				5B172B6A21F7B1A80042C8E6 /* iconRed_60pt@3x.png in Resources */,
@@ -436,6 +448,7 @@
 				5BD391CE21F9A64700993058 /* ru */,
 				5BD391FA21F9C2F600993058 /* en */,
 				5BD3920321F9D34F00993058 /* zh-Hans */,
+				5B25D21C21FCD0AC0055C696 /* en-GB */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -447,6 +460,7 @@
 				5BD391CF21F9A64700993058 /* ru */,
 				5BD391FB21F9C2F600993058 /* en */,
 				5BD3920421F9D34F00993058 /* zh-Hans */,
+				5B25D21D21FCD0AC0055C696 /* en-GB */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -457,6 +471,7 @@
 				5BD391F821F9C2E400993058 /* ru */,
 				5BD391FC21F9C2F700993058 /* en */,
 				5BD3920521F9D35000993058 /* zh-Hans */,
+				5B25D21E21FCD0AC0055C696 /* en-GB */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -586,7 +601,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconRed;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
 				INFOPLIST_FILE = PomodoroApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -594,8 +610,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.PomodoroApp;
+				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.PomodoroApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Pomodoro2;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -605,7 +622,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconRed;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
 				INFOPLIST_FILE = PomodoroApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -613,8 +631,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.PomodoroApp;
+				PRODUCT_BUNDLE_IDENTIFIER = a.s.bitsoev.PomodoroApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Pomodoro2;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
