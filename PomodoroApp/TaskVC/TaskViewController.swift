@@ -163,6 +163,13 @@ class TaskViewController: UIViewController, TaskViewProtocol, AVAudioPlayerDeleg
         
         nameOfCurrentTask = presenter!.getTaskName(byIndex: indexOfCurrentTask)
         labName.text = nameOfCurrentTask
+        
+        //перенос слов
+        if !labName.text!.contains(" ") {
+            
+            labName.numberOfLines = 1
+            
+        }
     }
     
     
