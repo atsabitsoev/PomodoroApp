@@ -339,7 +339,7 @@
 			};
 			buildConfigurationList = 5BBB3A0221E25B7A001FFFFA /* Build configuration list for PBXProject "PomodoroApp" */;
 			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = ru;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,

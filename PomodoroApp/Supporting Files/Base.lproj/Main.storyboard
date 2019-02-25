@@ -389,6 +389,7 @@
                         <viewLayoutGuide key="safeArea" id="fFL-wk-9iN"/>
                     </view>
                     <navigationItem key="navigationItem" title="Задачи" id="oAV-Vo-CpO">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="hQQ-wn-NkN"/>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="settings" id="vuI-gG-0pv">
                             <connections>
                                 <action selector="SettingsButtonTapped:" destination="ig7-bB-20g" id="AwR-mv-oC6"/>
