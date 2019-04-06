@@ -233,6 +233,7 @@
 			children = (
 				5BABE49221FB2F7C004CE632 /* .gitignore */,
 				5BBB3A0921E25B7A001FFFFA /* PomodoroApp */,
+				5BBB3A1621E25B7B001FFFFA /* Info.plist */,
 				5BBB3A0821E25B7A001FFFFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -253,7 +254,6 @@
 				5B58A32921E3AE0500D4A702 /* HomeVC */,
 				5B58A31B21E3ACAC00D4A702 /* TaskVC */,
 				5BE6844321E4B15E00A41B9B /* Supporting Files */,
-				5BBB3A1621E25B7B001FFFFA /* Info.plist */,
 				5B172B6221F7B0F20042C8E6 /* Icons */,
 				5BD3920621FA1CEA00993058 /* Entities + Services */,
 				5BD391F921F9C2E400993058 /* Localizable.strings */,
@@ -604,7 +604,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
-				INFOPLIST_FILE = PomodoroApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -625,7 +625,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 89WB9E7UEU;
-				INFOPLIST_FILE = PomodoroApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

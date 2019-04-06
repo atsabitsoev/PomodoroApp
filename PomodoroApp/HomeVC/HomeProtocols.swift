@@ -26,6 +26,7 @@ protocol HomePresenterProtocol: class {
     func settingsButtonTapped()
     func cellSelected(at indexPath: IndexPath)
     func arrayOfCountOfCircles() -> [String]
+    func randomMotivation() -> String?
     
 }
 
@@ -38,6 +39,9 @@ protocol HomeInteractorProtocol: class {
     func arrayOfTasks() -> [Task]
     func deleteTask(withName name: String)
     func changeNameOfTask(from: String, to: String)
+    
+    var motivations: [String] { get }
+    
 }
 
 //MARK: View -

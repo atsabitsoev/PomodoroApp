@@ -82,6 +82,13 @@ class HomePresenter: HomePresenterProtocol {
     }
     
     
+    func randomMotivation() -> String? {
+            
+        return interactor?.motivations.randomElement()
+        
+    }
+    
+    
     func deleteTask(withName name: String) {
         interactor?.deleteTask(withName: name)
     }

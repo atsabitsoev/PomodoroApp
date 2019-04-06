@@ -199,7 +199,7 @@ class SettingsViewController: UITableViewController, SettingsViewProtocol {
     
     // PICKER
     let themes: [Themes] = [.black, .blue, .violet, .red, .pink]
-    let workMinutesArray = ["25","30","35","40","45","50"]
+    let workMinutesArray = ["10","15","25","30","35","40","45","50"]
     let relaxMinutesArray = ["5","6","7","8","9","10"]
     let bigBreakArray = ["10","15","20","25","30","35","40"]
     let bigBreakEveryArray = ["2","3","4","5","6","7","8"]

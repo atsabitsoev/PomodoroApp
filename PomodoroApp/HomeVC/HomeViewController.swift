@@ -103,6 +103,16 @@ class HomeViewController: UIViewController, HomeViewProtocol {
     }
     
     
+    @IBAction func motivationTapped(_ sender: Any) {
+        
+        let motivation = presenter?.randomMotivation()
+        if motivation != nil {
+            motivationAlert(motivation!)
+        }
+        
+    }
+    
+    
     // ALERTS
     // ASKING FOR NAME ALERT
     func askingForNameAlert() {
@@ -138,6 +148,20 @@ class HomeViewController: UIViewController, HomeViewProtocol {
         alert.addAction(okAtion)
         self.present(alert, animated: true, completion: nil)
     }
+    
+    // MOTIVATION ALERT
+    func motivationAlert(_ text: String) {
+        
+        let alert = UIAlertController(title: "Цитата", message: text, preferredStyle: .alert)
+        
+        let okAction = UIAlertAction(title: "Спасибо", style: .cancel, handler: nil)
+        
+        alert.addAction(okAction)
+        
+        self.present(alert, animated: true, completion: nil)
+        
+    }
+    
     
     
     // UPDATE NAMES AND TIMES
